@@ -11,7 +11,6 @@ export const Todo = ({ navigation }) => {
 
     return (
         <SafeAir>
-            <Text>To do List</Text>
 
             <Button onPress={ () => navigation.push('History') } title="Move to history"/>
             <Button onPress={ () => navigation.push('Add Todo') } title="Add To Do"/>
